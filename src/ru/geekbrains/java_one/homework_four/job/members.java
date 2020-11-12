@@ -1,15 +1,15 @@
-package ru.geekbrains.java_one.homework_four.members;
+package ru.geekbrains.java_one.homework_four.job;
 
 public class members {
 
     private static final int CURRENT_YEAR = 2020;
     String fullName;
     String position;
-    int phone;
+    long phone;
     float salary;
     int age;
 
-    public members(String fullName, String position, int phone, float salary, int age) {
+    public members(String fullName, String position, long phone, float salary, int age) {
         this.fullName = fullName;
         this.position = position;
         this.phone = phone;
@@ -21,7 +21,7 @@ public class members {
 
     public String getPosition() {return position;}
 
-    public int getPhone() {return phone;}
+    public long getPhone() {return phone;}
 
     public float getSalary() {return salary;}
 

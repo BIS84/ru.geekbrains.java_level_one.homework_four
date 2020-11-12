@@ -1,8 +1,6 @@
 package ru.geekbrains.java_one.homework_four.job;
 
 public class members {
-
-    private static final int CURRENT_YEAR = 2020;
     String fullName;
     String position;
     long phone;

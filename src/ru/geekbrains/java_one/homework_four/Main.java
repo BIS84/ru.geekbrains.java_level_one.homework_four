@@ -60,8 +60,9 @@ public class Main {
             sumAge += member.getAge();
         }
         float averageSalary = sumSalary / 5;
-        System.out.println("sverage salary = " + averageSalary);
+        System.out.println("average salary = " + averageSalary);
         float averageAge = sumAge / 5;
         System.out.println("average age = " + averageAge);
+        System.out.println();
     }
 }

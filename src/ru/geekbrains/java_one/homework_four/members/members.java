@@ -16,4 +16,14 @@ public class members {
         this.salary = salary;
         this.age = age;
     }
+
+    public String getFullName() {return fullName;}
+
+    public String getPosition() {return position;}
+
+    public int getPhone() {return phone;}
+
+    public float getSalary() {return salary;}
+
+    public int getAge() {return age;}
 }

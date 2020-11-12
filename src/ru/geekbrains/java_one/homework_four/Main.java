@@ -6,6 +6,7 @@ import java.lang.reflect.Member;
 
 public class Main {
 
+    // Task 6
     private static void salaryPlus(members Members[]) {
         for (int i = 0; i < 5; i++) {
             members member = Members[i];
@@ -41,6 +42,7 @@ public class Main {
             }
         }
 
+        // Task 6
         salaryPlus(Members);
         for (int i = 0; i < 5; i++) {
             members member = Members[i];
@@ -48,5 +50,18 @@ public class Main {
             System.out.println(member.getSalary());
             System.out.println();
         }
+
+        // Task 7
+        float sumSalary = 0;
+        float sumAge = 0;
+        for (int i = 0; i < 5; i++) {
+            members member = Members[i];
+            sumSalary += member.getSalary();
+            sumAge += member.getAge();
+        }
+        float averageSalary = sumSalary / 5;
+        System.out.println("sverage salary = " + averageSalary);
+        float averageAge = sumAge / 5;
+        System.out.println("average age = " + averageAge);
     }
 }

@@ -27,5 +27,6 @@ public class members {
 
     public int getAge() {return age; }
 
+    // Task 6
     public void setSalary(float salary) {this.salary = salary; }
 }
